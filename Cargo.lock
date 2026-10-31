@@ -122,6 +122,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "alchemical-nonsense"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+]
+
+[[package]]
 name = "allocator-api2"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -937,13 +944,6 @@ dependencies = [
  "gilrs",
  "thiserror 2.0.21",
  "tracing",
-]
-
-[[package]]
-name = "bevy_github_ci_template"
-version = "0.1.0"
-dependencies = [
- "bevy",
 ]
 
 [[package]]
